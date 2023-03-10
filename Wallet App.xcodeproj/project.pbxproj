@@ -12,6 +12,8 @@
 		5C3D4EC129B9C806007C84B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C3D4EC029B9C806007C84B6 /* Assets.xcassets */; };
 		5C3D4EC429B9C806007C84B6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C3D4EC329B9C806007C84B6 /* Preview Assets.xcassets */; };
 		5C3D4ECB29B9CB0A007C84B6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3D4ECA29B9CB0A007C84B6 /* HomeView.swift */; };
+		5C60B7B829BB76F7004571B6 /* MasterCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C60B7B729BB76F7004571B6 /* MasterCardView.swift */; };
+		5C60B7BA29BB770C004571B6 /* VisaCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C60B7B929BB770C004571B6 /* VisaCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		5C3D4EC029B9C806007C84B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C3D4EC329B9C806007C84B6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5C3D4ECA29B9CB0A007C84B6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		5C60B7B729BB76F7004571B6 /* MasterCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterCardView.swift; sourceTree = "<group>"; };
+		5C60B7B929BB770C004571B6 /* VisaCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisaCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +58,10 @@
 			isa = PBXGroup;
 			children = (
 				5C3D4EBC29B9C804007C84B6 /* Wallet_AppApp.swift */,
-				5C3D4ECA29B9CB0A007C84B6 /* HomeView.swift */,
 				5C3D4EBE29B9C804007C84B6 /* ContentView.swift */,
+				5C3D4ECA29B9CB0A007C84B6 /* HomeView.swift */,
+				5C60B7B729BB76F7004571B6 /* MasterCardView.swift */,
+				5C60B7B929BB770C004571B6 /* VisaCardView.swift */,
 				5C3D4EC029B9C806007C84B6 /* Assets.xcassets */,
 				5C3D4EC229B9C806007C84B6 /* Preview Content */,
 			);
@@ -140,6 +146,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C60B7BA29BB770C004571B6 /* VisaCardView.swift in Sources */,
+				5C60B7B829BB76F7004571B6 /* MasterCardView.swift in Sources */,
 				5C3D4ECB29B9CB0A007C84B6 /* HomeView.swift in Sources */,
 				5C3D4EBF29B9C804007C84B6 /* ContentView.swift in Sources */,
 				5C3D4EBD29B9C804007C84B6 /* Wallet_AppApp.swift in Sources */,

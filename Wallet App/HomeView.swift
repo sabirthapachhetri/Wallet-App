@@ -14,7 +14,7 @@ struct HomeView: View {
     var body: some View {
         VStack {
             
-            //HEADER
+            // HEADER
             HStack {
                 Text("Your Wallet")
                     .font(.system(size: 20, weight: .bold))
@@ -38,6 +38,33 @@ struct HomeView: View {
             .padding(15)
             .background(Color(.systemGray5))
             .cornerRadius(8)
+            .padding(.bottom, 20)
+
+            // BALANCE
+            VStack(alignment: .leading) {
+                HStack {
+                    Text("Balance")
+                        .font(.system(size: 20, weight: .bold))
+                        .foregroundColor(.gray)
+                    
+                    Spacer()
+                }
+                .padding(.bottom, -5)
+                // Actual Balance
+                Text("24023.65")
+                    .font(.system(size: 30, weight: .heavy))
+            }
+            
+            // CARD VIEW
+            ScrollView(.horizontal, showsIndicators: false) {
+                HStack {
+                    MasterCardView()
+                    Spacer().frame(width: 25)
+                    VisaCardView()
+                    
+                }                
+            }
+
         }
         .frame(maxWidth: .infinity)
         .padding(.horizontal)
