@@ -64,7 +64,14 @@ struct HomeView: View {
                     
                 }                
             }
+            .padding(.bottom, 20)
 
+                HStack {
+                    Text("Transactions")
+                        .font(.system(size: 30, weight: .heavy))
+                    Spacer()
+                    Image("transactions")
+                }
         }
         .frame(maxWidth: .infinity)
         .padding(.horizontal)
