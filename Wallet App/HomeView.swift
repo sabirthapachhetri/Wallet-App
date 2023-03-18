@@ -72,6 +72,14 @@ struct HomeView: View {
                     Spacer()
                     Image("transactions")
                 }
+            
+            ScrollView(.vertical, showsIndicators: false) {
+                VStack {
+                    Transactions()
+                    Transactions()
+                    Transactions()
+                }
+            }
         }
         .frame(maxWidth: .infinity)
         .padding(.horizontal)

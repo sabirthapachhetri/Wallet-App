@@ -1,0 +1,63 @@
+[
+    {
+        "amount": "+$200.00",
+        "date": "2022-01-01",
+        "to": "John Smith",
+        "description": "Reimbursement for business expenses"
+    },
+    {
+        "amount": "-$50.00",
+        "date": "2022-01-02",
+        "to": "Netflix",
+        "description": "Monthly subscription fee"
+    },
+    {
+        "amount": "+$1000.00",
+        "date": "2022-01-05",
+        "to": "ABC Company",
+        "description": "Invoice payment for consulting services"
+    },
+    {
+        "amount": "-$75.00",
+        "date": "2022-01-08",
+        "to": "Amazon",
+        "description": "Online shopping purchase"
+    },
+    {
+        "amount": "-$20.00",
+        "date": "2022-01-10",
+        "to": "Jane Doe",
+        "description": "Birthday gift payment"
+    },
+    {
+        "amount": "+$300.00",
+        "date": "2022-01-12",
+        "to": "Savings Account",
+        "description": "Deposit for emergency fund"
+    },
+    {
+        "amount": "-$150.00",
+        "date": "2022-01-15",
+        "to": "Electric Company",
+        "description": "Monthly utility bill payment"
+    },
+    {
+        "amount": "+$500.00",
+        "date": "2022-01-20",
+        "to": "Investment Account",
+        "description": "Deposit for long-term investment"
+    },
+    {
+        "amount": "-$10.00",
+        "date": "2022-01-25",
+        "to": "Coffee Shop",
+        "description": "Morning coffee and pastry"
+    },
+    {
+        "amount": "+$1500.00",
+        "date": "2022-01-31",
+        "to": "Salary",
+        "description": "Monthly paycheck from employer"
+    }
+]
+
