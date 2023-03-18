@@ -74,11 +74,12 @@ struct HomeView: View {
                 }
             
             ScrollView(.vertical, showsIndicators: false) {
-                VStack {
-                    Transactions()
-                    Transactions()
-                    Transactions()
-                }
+                    VStack(spacing: 20) {
+                        ForEach(1...5, id: \.self) { index in
+                            Transactions()
+                                .frame(height: 50)
+                        }
+                    }
             }
         }
         .frame(maxWidth: .infinity)
